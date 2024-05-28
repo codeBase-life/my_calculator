@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.screen {
+    background-color: black;
+    width: 400px;
+    color: white;
+    text-align: right;
+    font-size: 45px;
+    padding: 8px 0px 8px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.cal {
+    /* background-color: cadetblue; */
+    width: 400px;
+    margin: 50px auto 0px auto;
+
+}
+
+/* .buttons-area {
+    display: flex;
+} */
+
+.first-area {
+    display: flex;
+}
+
+.double {
+    font-size: 50px;
+    background-color: #D8D9DB;
+    width: 200px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+
+.first-area :nth-child(2) {
+    width: 100px;
+    background-color: #D8D9DB;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.first-area :nth-child(3) {
+    background-color: #DF974C;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-left: 1px solid black;
+    color: white;
+
+}
+
+.second-area {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.second-area :nth-child(1) {
+    width: 100px;
+    background-color: #D8D9DB;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+}
+
+.second-area :nth-child(2) {
+    width: 100px;
+    background-color: #D8D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+}
+
+.second-area :nth-child(3) {
+    width: 100px;
+    background-color: #D8D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.second-area :nth-child(4) {
+    background-color: #DF974C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 100px;
+    color: white;
+}
+
+.third-area {
+    display: flex;
+}
+
+.third-area :nth-child(1) {
+    width: 100px;
+    background-color: #D8D9DB;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+}
+
+.third-area :nth-child(2) {
+    width: 100px;
+    background-color: #D8D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+}
+
+.third-area :nth-child(3) {
+    width: 100px;
+    background-color: #D8D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.third-area :nth-child(4) {
+    background-color: #DF974C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 100px;
+    color: white;
+}
+
+.forth-area {
+    display: flex;
+
+}
+
+.forth-area :nth-child(1) {
+    width: 100px;
+    background-color: #D8D9DB;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+}
+
+.forth-area :nth-child(2) {
+    width: 100px;
+    background-color: #D8D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+}
+
+.forth-area :nth-child(3) {
+    width: 100px;
+    background-color: #D8D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.forth-area :nth-child(4) {
+    background-color: #DF974C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 100px;
+    color: white;
+}
+
+.fifth-area {
+    display: flex;
+}
+
+.triple {
+    width: 300px;
+    background-color: #D8D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-bottom-left-radius: 10px;
+}
+
+.fifth-area :nth-child(2) {
+    background-color: #DF974C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 100px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ebebeb;
+}
+
+.button:active {
+    background-color: #bbbcbe;
+}
+
+.clr:hover {
+    background-color: #dfb07e;
+}
+
+.clr:active {
+    background-color: #dd8d37;
+}
